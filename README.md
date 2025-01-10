@@ -1,4 +1,4 @@
-"**# MLops_Credit_Card_Default" **d_Default"**
+**# MLops_Credit_Card_Default "**
 
 **Data Info**
 
