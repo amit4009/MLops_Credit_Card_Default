@@ -1,6 +1,7 @@
-"# MLops_Credit_Card_Default" 
+"**# MLops_Credit_Card_Default" **d_Default"**
 
 **Data Info**
+
 X1: Amount of the given credit (NT dollar): it includes both the individual consumer credit and his/her family (supplementary) credit.
 
 X2: Gender (1 = male; 2 = female).
