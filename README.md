@@ -32,19 +32,19 @@ Model Selection: Comparing different machine learning models to find the best on
 Hyperparameter Tuning: Optimizing the model for better accuracy.<br>
 Deployment: Using Flask to deploy the model as a web application.<br>
 
-# Algorithm
-1. Data Preprocessing<br>
+# Steps
+1. **Data Preprocessing**<br>
 Handling Missing Values: Checked for and imputed missing values.<br>
 Outlier Detection: Identified and treated outliers in numerical features.<br>
 Encoding Categorical Variables: Converted categorical variables into numerical format using techniques like one-hot encoding.<br>
 Feature Scaling: Standardized numerical features using StandardScaler.<br>
-2. Exploratory Data Analysis (EDA)<br>
+2. **Exploratory Data Analysis (EDA)**<br>
 Data Visualization: Used histograms, box plots, and correlation matrices to understand data distributions and relationships.<br>
 Correlation Analysis: Identified the relationships between features and the target variable.<br>
-3. Feature Engineering<br>
+3.**Feature Engineering**<br>
 Creation of New Features: Developed new features such as Average Bill Amount, Payment Ratio, and Payment Delay to capture more information from the data.<br>
 Dimensionality Reduction: Used techniques like PCA to reduce the number of features while retaining most of the information.<br>
-4. Model Building<br>
+4. **Model Building**<br>
 Model Training: Trained several machine learning models, including:<br>
 Logistic Regression<br>
 Random Forest<br>
@@ -53,10 +53,10 @@ Support Vector Machines (SVM)<br>
 
 Model Evaluation: Evaluated models using accuracy, precision, recall, F1-score, and ROC-AUC.
 
-5. Hyperparameter Tuning<br>
+5.**Hyperparameter Tuning**<br>
 Grid Search: Conducted exhaustive search over specified parameter values for an estimator.<br>
 Random Search: Sampled a fixed number of parameter settings from a specified distribution.<br>
-6. Model Deployment<br>
+6. **Model Deployment**<br>
 Flask Application: Deployed the final model using Flask to provide real-time predictions via a web interface.<br>
 
 # Results
@@ -68,7 +68,7 @@ F1-Score: 74%<br>
 
 The model effectively reduced false positives by 15%, enhancing the risk assessment capabilities.
 
-# The use app image.
+# The user app image.
 ![alt text](webApp.png)
 
 # Observations
